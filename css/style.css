@@ -1,0 +1,116 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+  }
+.wrapper{
+    max-width: 1695px;
+    margin: 0 auto;
+    padding: 0 75px;
+    
+}
+header{
+    padding-top: 24px;
+    position: fixed;
+    max-width: 1695px;
+    margin: 0 auto;
+    z-index: 100;
+
+}
+.header_logo{
+    padding-right: 40px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+.menu_items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_item:not(:last-child){
+    margin-right: 100px;
+}
+
+.menu__link{
+    color: #333333;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.social a {
+    display: inline-block;
+    margin-right: 12px;  
+}
+.social_link:last-child {
+    margin-right: 40px;
+}
+.number{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32.5px;
+}
+.bold_text{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+h1{
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 99px;
+}
+.intro{
+    padding-top: 200px;
+    background-image: url(/images/intro_fon.png);
+    position: relative;
+
+}
+.circle {
+    position: absolute;
+    z-index: 1;
+}
+.circle_1{
+    width: 296px;
+    height: 436px;
+    top: 137px;
+    opacity: 0.15px;
+}
+.circle_2{
+    width: 218px;
+    height: 218px;
+    top: 534px;
+    left: 596px;
+    opacity: 0.15px;
+}
+.circle_3{
+    width: 93px;
+    height: 93px;
+    top: 137px;
+    left: 1190px;
+    opacity: 0.15px;
+}
+.intro_content{
+    position: relative;
+    z-index: 2;
+}
